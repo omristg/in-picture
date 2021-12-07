@@ -59,7 +59,7 @@ function rederQuest() {
 
 function rednerPics() {
     var strHTML = `<img class="opt${(gCurrQuestIdx + 1)}"
-    src="/img/${(gCurrQuestIdx + 1)}.jpg" alt="">`
+    src="img/${(gCurrQuestIdx + 1)}.jpg" alt="">`
 
     var elPicDiv = document.querySelector('.pic-div');
     elPicDiv.innerHTML = strHTML;
